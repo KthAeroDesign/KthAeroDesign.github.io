@@ -1,0 +1,13 @@
+# system files (macOS, Windows)
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.log
+*.tmp
+*.swp
+
+# VSCode 
+.vscode/
+
+
