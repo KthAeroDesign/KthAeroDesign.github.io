@@ -150,3 +150,42 @@ footer {
         font-size: 0.9rem;
     }
 }
+
+
+/*Application form*/
+.application-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 600px;
+    margin: auto;
+}
+
+.application-form input,
+.application-form textarea {
+    padding: 1rem;
+    border: 1px solid #333;
+    background-color: #111;
+    color: white;
+    font-family: inherit;
+    font-size: 1rem;
+    transition: border-color 0.3s, background-color 0.3s;
+}
+
+.application-form input::placeholder,
+.application-form textarea::placeholder {
+    color: #aaa;
+}
+
+.application-form input:hover,
+.application-form textarea:hover {
+    background-color: #1a1a1a;
+    border-color: #555;
+}
+
+.application-form input:focus,
+.application-form textarea:focus {
+    outline: none;
+    border-color: white;
+    background-color: #1f1f1f;
+}
