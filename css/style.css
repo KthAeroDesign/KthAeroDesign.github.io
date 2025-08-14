@@ -272,7 +272,7 @@ footer {
 }
 
 
-
+/*For phone*/
 @media (max-width: 480px) {
   :root {
     --sponsor-logo-h: 48px;
