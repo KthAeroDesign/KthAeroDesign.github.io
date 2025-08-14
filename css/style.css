@@ -246,6 +246,16 @@ footer {
   background-color: #1a1a1a;
 }
 
+/* Centered text helper (used on apply page) */
+.centered-text {
+  text-align: center;
+}
+
+.centered-text p {
+  max-width: 720px;
+  margin: 0 auto 1.5rem;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .nav-links {
